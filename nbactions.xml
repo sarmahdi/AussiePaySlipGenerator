@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-CheckStyle StandAlone</actionName>
+            <displayName>CheckStyle StandAlone</displayName>
+            <goals>
+                <goal>checkstyle:checkstyle</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-JXR</actionName>
+            <displayName>JXR</displayName>
+            <goals>
+                <goal>jxr:jxr</goal>
+            </goals>
+        </action>
+    </actions>
